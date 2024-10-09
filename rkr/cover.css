@@ -17,15 +17,33 @@
  */
 
 body {
-  background: #2b2f32 url("banner.jpg") no-repeat center;
+  background: #ffffff no-repeat center;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.event {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.event > button {
+  background: #333333;
+  margin: auto;
+  min-width: 100vw;
+}
+
+.event > button > a {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cover-container {
   display:flex; flex-direction:column; justify-content:center; align-content: center;
   min-height:100vh;
-  max-width: 42em;
+  max-width: 100vw;
 }
 
 .cover {
